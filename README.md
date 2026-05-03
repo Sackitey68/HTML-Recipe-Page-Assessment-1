@@ -3,7 +3,7 @@
 **Author:** Isaac Sackey Sackitey  
 **Program:** ALT School - Backend Engineering  
 **Module:** Assessment 1 (contd): Styling Your Recipe Page with CSS  
-**Date:** April 27, 2026  
+**Date:** May 3, 2026  
 
 ## 📖 Project Overview
 An enhanced, visually styled recipe webpage built with semantic HTML5 and an external CSS stylesheet. This project demonstrates core web styling concepts including stylesheet integration, typography & color theming, Flexbox layout, responsive spacing, and creative UI enhancements as part of the ALT School Backend Engineering curriculum.
