@@ -4,34 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Banku and Grilled Tilapia Recipe</title>
+    <!-- ✅ External Stylesheet Linked -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- ========================================
          Recipe: Banku and Grilled Tilapia
          Author: Isaac Sackey Sackitey
-         Assignment: HTML Recipe Page
-         Date: 27th April 2026
+         Program: ALT School - Backend Engineering
+         Module: Introduction to CSS
+         Date: 3rd May 2026
          ======================================== -->
 
-    <!-- Header Section: Recipe Title & Description -->
-    <header>
-      <h1>
-        <u>
-          Banku and Grilled Tilapia
-        </u>
-      </h1>
-      <p>
-        <em
-          >A beloved Ghanaian classic featuring fermented corn-cassava dumpling
-          served with smoky grilled tilapia and fiery pepper sauce — a true
-          taste of West Africa!</em
-        >
+    <header class="recipe-header">
+      <h1><u>Banku and Grilled Tilapia</u></h1>
+      <p class="header-desc">
+        <em>A beloved Ghanaian classic featuring fermented corn-cassava dumpling
+        served with smoky grilled tilapia and fiery pepper sauce — a true
+        taste of West Africa!</em>
       </p>
     </header>
 
-    <!-- Recipe Details Section -->
-    <main>
-      <section>
+    <main class="recipe-container">
+      <section class="recipe-details">
         <h2>Recipe Details</h2>
         <p><strong>Prep Time:</strong> 30 minutes</p>
         <p><strong>Cook Time:</strong> 25 minutes</p>
@@ -39,33 +34,27 @@
         <p><strong>Difficulty:</strong> <mark>Medium</mark></p>
       </section>
 
-      <!-- Recipe Image -->
-      <figure>
+      <figure class="recipe-image">
         <img
-          src="banku-tilapia.jpg"
+          src="assets/banku-tilapia.jpg"
           alt="Traditional Ghanaian banku with grilled tilapia and pepper sauce"
           width="600"
           height="400"
         />
-        <figcaption>
-          <em>Banku and grilled tilapia served with pepper sauce</em>
-        </figcaption>
+        <figcaption><em>Banku and grilled tilapia served with pepper sauce</em></figcaption>
       </figure>
 
-      <!-- Ingredients Section -->
-      <section>
+      <section class="ingredients">
         <h2>Ingredients</h2>
-
         <h3>For the Banku:</h3>
-        <ul>
+        <ul class="ingredient-list">
           <li>2 cups fermented corn dough</li>
           <li>½ cup fermented cassava dough</li>
           <li>2-3 cups water (adjust for consistency)</li>
           <li>Salt to taste</li>
         </ul>
-
         <h3>For the Grilled Tilapia:</h3>
-        <ul>
+        <ul class="ingredient-list">
           <li>2 whole tilapia fish, cleaned and scaled</li>
           <li>2 tablespoons fresh ginger, minced</li>
           <li>3 cloves garlic, minced</li>
@@ -77,80 +66,36 @@
         </ul>
       </section>
 
-      <!-- Instructions Section -->
-      <section>
+      <section class="instructions">
         <h2>Instructions</h2>
-        <ol>
-          <li>
-            <strong>Prepare the Banku:</strong> Mix fermented corn dough and
-            cassava dough with water in a large pot until smooth. Add salt to
-            taste.
-          </li>
-          <li>
-            Place pot over medium-high heat and stir constantly with a wooden
-            spoon to prevent lumps. Reduce heat and continue stirring vigorously
-            for 15-20 minutes until smooth and elastic.
-          </li>
-          <li>
-            <strong>Marinate the Tilapia:</strong> Score cleaned fish on both
-            sides. Mix ginger, garlic, half the onions, salt, and pepper. Rub
-            marinade all over fish and inside cavity. Let marinate for 15-20
-            minutes.
-          </li>
-          <li>
-            <strong>Grill the Fish:</strong> Brush fish with vegetable oil and
-            grill over medium-high heat for 10-12 minutes per side until crispy
-            and cooked through.
-          </li>
-          <li>
-            <strong>Serve:</strong> Shape banku into balls using a wet spoon.
-            Serve hot with grilled tilapia and pepper sauce on the side.
-          </li>
+        <ol class="step-list">
+          <li><strong>Prepare the Banku:</strong> Mix fermented corn dough and cassava dough with water in a large pot until smooth. Add salt to taste.</li>
+          <li>Place pot over medium-high heat and stir constantly with a wooden spoon to prevent lumps. Reduce heat and continue stirring vigorously for 15-20 minutes until smooth and elastic.</li>
+          <li><strong>Marinate the Tilapia:</strong> Score cleaned fish on both sides. Mix ginger, garlic, half the onions, salt, and pepper. Rub marinade all over fish and inside cavity. Let marinate for 15-20 minutes.</li>
+          <li><strong>Grill the Fish:</strong> Brush fish with vegetable oil and grill over medium-high heat for 10-12 minutes per side until crispy and cooked through.</li>
+          <li><strong>Serve:</strong> Shape banku into balls using a wet spoon. Serve hot with grilled tilapia and pepper sauce on the side.</li>
         </ol>
       </section>
 
-      <!-- Tips and Notes Section  -->
-      <section>
+      <section class="tips">
         <h2>💡 Tips & Notes</h2>
-        <ul>
-          <li>
-            For authentic flavor, use properly fermented dough (2-3 days
-            fermentation). Pre-fermented dough is available in African markets.
-          </li>
-          <li>
-            Stir the banku continuously to achieve the signature smooth,
-            stretchy texture without lumps.
-          </li>
-          <li>
-            Adjust scotch bonnet peppers according to your heat preference —
-            they're very spicy!
-          </li>
-          <li>
-            Traditionally eaten with your hands: tear off a piece of banku, dip
-            in pepper sauce, and enjoy with flaked fish.
-          </li>
+        <ul class="tip-list">
+          <li>For authentic flavor, use properly fermented dough (2-3 days fermentation). Pre-fermented dough is available in African markets.</li>
+          <li>Stir the banku continuously to achieve the signature smooth, stretchy texture without lumps.</li>
+          <li>Adjust scotch bonnet peppers according to your heat preference — they're very spicy!</li>
+          <li>Traditionally eaten with your hands: tear off a piece of banku, dip in pepper sauce, and enjoy with flaked fish.</li>
         </ul>
       </section>
 
-      <!-- Nutrition Facts Section -->
-      <section>
+      <section class="nutrition">
         <h2>Nutrition Facts</h2>
-        <p>
-          <small
-            >Calories: ~450 | Protein: 35g | Carbs: 52g | Fat: 12g | Fiber:
-            4g</small
-          >
-        </p>
+        <p><small>Calories: ~450 | Protein: 35g | Carbs: 52g | Fat: 12g | Fiber: 4g</small></p>
       </section>
     </main>
 
-    <!-- Footer-->
-    <footer>
+    <footer class="recipe-footer">
       <p>Recipe adapted from traditional Ga and Ewe culinary practices</p>
-      <p>
-        &copy; 2026 Copyright Isaac Sackey Sackitey. Created for HTML
-        Assignment.
-      </p>
+      <p>&copy; 2026 Copyright Isaac Sackey Sackitey. Created for HTML/CSS Assignment.</p>
     </footer>
   </body>
 </html>
