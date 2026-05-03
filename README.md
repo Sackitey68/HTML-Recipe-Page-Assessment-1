@@ -2,34 +2,37 @@
 
 **Author:** Isaac Sackey Sackitey  
 **Program:** ALT School - Backend Engineering  
-**Module:** Introduction to Programming  
+**Module:** Assessment 1 (contd): Styling Your Recipe Page with CSS  
 **Date:** April 27, 2026  
 
 ## 📖 Project Overview
-A semantic HTML5 recipe page built to demonstrate core web development fundamentals. This project showcases proper document structure, semantic markup, content organization, and text/image formatting as part of the ALT School Backend Engineering curriculum.
+An enhanced, visually styled recipe webpage built with semantic HTML5 and an external CSS stylesheet. This project demonstrates core web styling concepts including stylesheet integration, typography & color theming, Flexbox layout, responsive spacing, and creative UI enhancements as part of the ALT School Backend Engineering curriculum.
 
 ## 🛠️ Tech Stack
-- HTML5 (Semantic Elements)
-- Pure HTML (No external CSS/JS per assignment requirements)
+- HTML5 (Semantic Structure)
+- CSS3 (External Stylesheet, Flexbox, Transitions, Custom List Styling)
+- Zero inline CSS or JavaScript (strict compliance with assignment requirements)
 
 ## 📂 Project Structure
-- index.html # Main recipe page
-- banku-tilapia.jpg # Featured image
-- README.md # Project documentation
-
+├── index.html # Main recipe page (HTML structure)  
+├── style.css # External stylesheet (all styling & layout)  
+├── banku-tilapia.jpg # Featured recipe image  
+└── README.md # Project documentation
 
 ## 🚀 How to View
 1. Clone or download the repository
 2. Open `index.html` in any modern web browser
-3. View live via GitHub Pages or the raw GitHub file link
+3. View live via: `https://banku-and-tilapia-alt-assignment-2.netlify.app`
 
-## ✅ Assignment Requirements Met
-- [x] Proper HTML5 document structure (`<!DOCTYPE>`, `<html>`, `<head>`, `<body>`, `<meta>`, `<title>`)
-- [x] Semantic elements (`<header>`, `<main>`, `<section>`, `<figure>`, `<footer>`)
-- [x] Unordered & ordered lists for ingredients and instructions
-- [x] Text formatting (`<strong>`, `<em>`, `<u>`, `<mark>`, `<small>`)
-- [x] Image with `src`, `alt`, `width`, and `height` attributes
-- [x] Clean, indented, and well-commented code
+## ✅ Assignment Requirements Met (CSS Rubric)
+- [x] **External Stylesheet Setup** (0.5): CSS isolated in `style.css` and linked via `<link>` in `<head>`
+- [x] **Typography & Colors** (1.0): Themed fonts, clear hierarchy, and warm/cool palette aligned with West African cuisine
+- [x] **Layout & Structure** (1.5): Flexbox used for page container and section alignment; logical visual flow
+- [x] **Spacing & Alignment** (1.0): Consistent `margin`, `padding`, and centered layout for balanced presentation
+- [x] **Styling & Creativity** (1.0): Hover effects, smooth transitions, gradient background, rounded corners, and custom list markers
+- [x] **Technical Standards**: Zero inline CSS, effective class selectors, proper indentation, and well-commented code
 
 ## 📝 Notes
-This project focuses strictly on HTML structure and semantics as required by the assignment. No external stylesheets or JavaScript were used to maintain compliance with the grading rubric.
+- All styling is strictly separated into an external `style.css` file per assignment guidelines.
+- The design prioritizes readability, semantic structure, and accessibility while maintaining a clean, modern aesthetic.
+- Built specifically for ALT School's Backend Engineering CSS assessment.
